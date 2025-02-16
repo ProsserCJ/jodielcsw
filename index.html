@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jodie Carvahlo, LCSW</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Jodie Carvahlo, LCSW</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome</h2>
+            <p>I'm glad you're here. Seeking help can feel vulnerable and difficult. But it doesn't have to be overwhelming.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <ul>
+                <li>
+                    <details>
+                        <summary>Outpatient Therapy</summary>
+                        <p>In individual therapy sessions, we’ll work together to pull at strings and determine what cognitive distortions are present. As your thought patterns rewire, we'll also work to re-frame your reactions and provide you with valuable tools to cope with life’s obstacles. Family and Couples therapy also available! <a href="#contact">Get in touch</a> to schedule a free consultation.</p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Immigration Evaluations</summary>
+                        <p>I provide psychosocial evaluations for clients involved in immigration-related court hearings, which provides the court with a more holistic understanding of the client's psychological and emotional experiences and needs. I'm trained in VAWA, U-VISA, T-VISA, Hardship, and Waiver cases. <a href="#contact">Get in touch</a> to schedule a free consultation.</p>
+                    </details>
+                </li>                
+                <li>
+                    <details>
+                        <summary>Child and Adolescent Therapy</summary>
+                        <p>I am trained in working with clients of all ages, but have significant experience in working with children and adolescents. Through play therapy, bibliotherapy, and narrative work, I can support your child in processing the anxiety or trauma that they're working through. <a href="#contact">Get in touch</a> to schedule a free consultation.</p>
+                    </details>
+                </li>
+            </ul>
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-me-content">
+                <a href="img/jodie.avif"><img src="img/jodie.avif" alt="Jodie Carvahlo, LCSW" class="therapist-image"></a>
+                <p>I specialize in working with children ages 3-18, and have extensive experience working with children who have experienced trauma. I also work with adults, with a focus on trauma, anxiety and depression. In addition to these issues, I specialize in self-esteem, anger management, parenting, and foster care/adoption. I am trained in both TF-CBT and EMDR.</p>
+            </div>            
+        </section>
+        <section id="expect" class="section">
+            <h2>What to Expect</h2>
+            <p>Life gets hard. I hope to offer you a patient, comfortable place where you can find support and restoration, as you work to process through whatever life is throwing at you. I firmly believe that the key to emotional health starts with learning to love yourself. And if you’re seeking therapy, you’re already a step closer to that goal. I use a strengths-based approach that focuses around bringing awareness to your feelings and their sources, and an understanding of the way that these feelings connect to your behaviors. From there, we can work together to help you cultivate a sense of control over your life.</p>
+            <p>Sessions are 45 minutes. Private pay rate is $130 per session. Some insurances are accepted.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><a href="mailto:clinical@jodielcsw.com">clinical@jodielcsw.com</a></p>
+                    <p><a href="tel:+12673880815">(267) 388-0815</a></p>
+                    <p>101 E 8th Ave, Suite 107, Conshohocken PA 19428</p>
+                    <p>Find me on <a href="https://www.psychologytoday.com/us/therapists/jodie-carvalho-conshohocken-pa/706935" target="_blank">Psychology Today</a></p>
+                </div>                
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; <span id="copyright-year"></span> Jodie Carvahlo. All rights reserved.</p>
+    </footer>
+</body>
+<script>
+    var now = new Date();
+    document.querySelector("#copyright-year").textContent = now.getFullYear();
+</script>
+</html>
