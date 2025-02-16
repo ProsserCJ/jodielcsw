@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: #4A90E2;
+    background: #366dac;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -27,7 +27,7 @@ header {
 header h1 {
     font-weight: 700;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 nav {
@@ -35,6 +35,7 @@ nav {
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-size: 0.9rem;
 }
 
 nav a {
@@ -48,17 +49,20 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.banner-img {
+    max-height: 100px;
+}
+
 .container {
     width: 90%;
     max-width: 800px;
-    margin: 20px auto;
     background: #fafafa;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
-.section {
+.section:not(#contact) {
     margin-bottom: 30px;
 }
 
@@ -67,6 +71,10 @@ nav a:hover {
     color: #4A90E2;
     font-size: 2rem;
     margin-bottom: 10px;
+}
+
+#welcome-header {
+    margin-top: 0;
 }
 
 .section p,
@@ -95,13 +103,12 @@ nav a:hover {
     object-position: 50% 25%;
     border: 4px solid #4A90E2;
     margin-top: 0;
-    margin-left: 20px;
 }
 
 .about-me-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .contact-info p {
@@ -112,8 +119,6 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
 }
 
 footer p {
@@ -139,4 +144,18 @@ summary {
 
 summary::-webkit-details-marker {
     display: none;
+}
+
+@media (min-width: 640px){
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        margin: 20px auto;
+    }
+
+    nav {
+        font-size: 1rem;
+    }
 }
