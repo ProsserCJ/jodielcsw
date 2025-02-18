@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Quicksand';
-    src: url('fonts/Quicksand/Quicksand-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Quicksand/Quicksand-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'Nunito';
-    src: url('fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Nunito/Nunito-VariableFont_wght.ttf');
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 header {
     background: #366dac;
     color: #fff;
-    padding: 20px 0;
+    padding: 8px 0;
     text-align: center;
 }
 
