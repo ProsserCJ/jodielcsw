@@ -16,121 +16,14 @@
     --soft-neutral-muted-aqua: #80CBC4;
     --soft-neutral-white: #FFFFFF;
 
-    /* Palette 2: Earthy Tones */
-    --earthy-soft-beige: #F0EAD6;
-    --earthy-warm-tan: #D4A373;
-    --earthy-muted-olive: #A5A58D;
-    --earthy-sage-green: #6B705C;
-    --earthy-white: #FFFFFF;
-
-    /* Palette 3: Cool Blues and Grays */
-    --cool-blue-light-blue: #E3F2FD;
-    --cool-blue-sky-blue: #90CAF9;
-    --cool-blue-muted-blue: #64B5F6;
-    --cool-blue-dark-gray: #424242;
-    --cool-blue-white: #FFFFFF;
-
-    /* Palette 4: Muted Purples and Lavenders */
-    --muted-purple-soft-lavender: #F3E5F5;
-    --muted-purple-muted-purple: #CE93D8;
-    --muted-purple-deeper-lavender: #AB47BC;
-    --muted-purple-dark-purple: #4A148C;
-    --muted-purple-white: #FFFFFF;
-
-    /* Palette 5: Warm Greens and Creams */
-    --warm-green-light-cream: #F1F8E9;
-    --warm-green-soft-green: #C5E1A5;
-    --warm-green-muted-green: #8BC34A;
-    --warm-green-dark-green: #33691E;
-    --warm-green-white: #FFFFFF;
-
-    /* Palette 6: Minimalist Monochrome */
-    --monochrome-off-white: #FAFAFA;
-    --monochrome-light-gray: #E0E0E0;
-    --monochrome-medium-gray: #9E9E9E;
-    --monochrome-dark-gray: #616161;
-    --monochrome-white: #FFFFFF;
-
-    /* Palette 7: Soft Coral and Neutrals */
-    --soft-coral-warm-cream: #FFF3E0;
-    --soft-coral-soft-coral: #FFCCBC;
-    --soft-coral-muted-coral: #FFAB91;
-    --soft-coral-deep-coral: #BF360C;
-    --soft-coral-white: #FFFFFF;
-
-    /* Palette 8: Ocean-Inspired Palette */
-    --ocean-light-cyan: #E0F7FA;
-    --ocean-soft-turquoise: #80DEEA;
-    --ocean-muted-teal: #4DD0E1;
-    --ocean-deep-teal: #0097A7;
-    --ocean-white: #FFFFFF;
-
-    --white: #f0f0f0;
-    --text: #333941;
-}
-
-body.pastels {
     --header-bg: var(--soft-neutral-pale-teal);
     --h2: var(--soft-neutral-muted-aqua);
     --link: var(--soft-neutral-muted-aqua);
     --accent: var(--soft-neutral-gray);
     --section-bg: var(--soft-neutral-light-gray);
-}
 
-body.earthy {
-    --header-bg: var(--earthy-muted-olive);
-    --h2: var(--earthy-sage-green);
-    --link: var(--earthy-sage-green);
-    --accent: var(--earthy-warm-tan);
-    --section-bg: var(--earthy-soft-beige);
-}
-
-body.coolblues {
-    --header-bg: var(--cool-blue-muted-blue);
-    --h2: var(--cool-blue-dark-gray);
-    --link: var(--cool-blue-dark-gray);
-    --accent: var(--cool-blue-sky-blue);
-    --section-bg: var(--cool-blue-light-blue);
-}
-
-body.purples {
-    --header-bg: var(--muted-purple-deeper-lavender);
-    --h2: var(--muted-purple-dark-purple);
-    --link: var(--muted-purple-dark-purple);
-    --accent: var(--muted-purple-muted-purple);
-    --section-bg: var(--muted-purple-soft-lavender);
-}
-
-body.greens {
-    --header-bg: var(--warm-green-muted-green);
-    --h2: var(--warm-green-dark-green);
-    --link: var(--warm-green-dark-green);
-    --accent: var(--warm-green-soft-green);
-    --section-bg: var(--warm-green-light-cream);
-}
-
-body.monochrome {
-    --header-bg: var(--monochrome-medium-gray);
-    --h2: var(--monochrome-dark-gray);
-    --link: var(--monochrome-dark-gray);
-    --accent: var(--monochrome-light-gray);
-    --section-bg: var(--monochrome-off-white);
-}
-
-body.corals {
-    --header-bg: var(--soft-coral-muted-coral);
-    --h2: var(--soft-coral-deep-coral);
-    --link: var(--soft-coral-deep-coral);
-    --accent: var(--soft-coral-soft-coral);
-    --section-bg: var(--soft-coral-warm-cream);
-}
-
-body.ocean {
-    --header-bg: var(--ocean-muted-teal);
-    --h2: var(--ocean-deep-teal);
-    --link: var(--ocean-deep-teal);
-    --accent: var(--ocean-soft-turquoise);
-    --section-bg: var(--ocean-light-cyan);
+    --white: #f0f0f0;
+    --text: #333941;
 }
 
 body {
@@ -143,7 +36,6 @@ body {
 }
 
 header {
-    /* background: #366dac; */
     background: var(--header-bg);
     padding: 8px 0;
     text-align: center;
@@ -175,7 +67,6 @@ nav a:hover {
 
 .banner-img {
     max-height: 100px;
-    src: var(--img-src);
 }
 
 .container {
